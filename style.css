@@ -6396,6 +6396,7 @@ hr.style1 {
 footer {
     background-color: #333333;
     height: 67px;
+    width: auto;
 }
 
 #notSpecific {
@@ -6403,16 +6404,19 @@ footer {
     color: white;
 }
 
-.container {
-    height: inherit;
-    position: relative;
+.parent {
+  position: relative;
+  height: 67px;
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.child {
+  width: 300px;
+  height: 67px;
+  padding-top: 60px;;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: -70px 0 0 -163px;
 }
