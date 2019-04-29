@@ -1,4 +1,3 @@
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -50,6 +49,32 @@ abbr[title] {
     border-bottom: none;
     text-decoration: underline;
     text-decoration: underline dotted
+}
+
+#animate {
+  text-decoration: none;
+  position: relative;
+  /* color: #069; */
+}
+
+#animate:visited {
+  text-decoration: none;
+  position: relative;
+  color: #069;
+}
+
+#animate:after, #animate:visited:after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background: #069;
+  transition: 0.2s;
+}
+#animate:hover:after, #animate:visited:hover:after {
+  width: 100%;
 }
 
 b,strong {
