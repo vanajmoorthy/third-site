@@ -177,7 +177,7 @@ a:hover {
     background-color: rgba(234, 234, 234, 0.8);
     /* backdrop-filter: blur(10px); */
     opacity: 1;
-    /* border-radius: 50px; */
+    border-radius: 20px;
 }
 
 /* #left {
