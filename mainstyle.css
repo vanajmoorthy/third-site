@@ -1,7 +1,6 @@
 /* ---- reset ---- */
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
     margin: 0;
     background-color: #FFFFFF;
     font-family: europa, sans-serif;
