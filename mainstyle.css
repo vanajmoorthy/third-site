@@ -21,6 +21,16 @@ body {
     animation-fill-mode: both;
 }
 
+@media screen and (max-width: 1000px) {
+  #flex-container {
+     display: block !important;
+     font-size: 2.2em;
+  }
+  div.child {
+     margin: -200px 0px 0px -250px;
+  }
+}
+
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -68,10 +78,11 @@ h2 {
     z-index: 2000;
     font-size: 2em;
     /* border-bottom: 1px solid #eaecef */
-    display: inline;
+    /* display: inline; */
     color: #333333;
     text-align: center;
     vertical-align: middle;
+    text-shadow: 2px 2px #33333359;
     /* background-color: #eaeaea; */
 }
 
@@ -90,11 +101,14 @@ h2 {
 a {
     color: #333333;
     text-decoration: none;
+
     transition: 0.3s
 }
 
 a:hover {
-    color: #1DA7EA;
+     /* color: #1DA7EA; */
+    /* font-size: 30[px; */
+
 }
 
 #animate:after, #animate:visited:after {
@@ -104,7 +118,7 @@ a:hover {
     bottom: 0;
     left: 0;
     width: 0%;
-    background: #1DA7EA;
+    background: #333333;
     opacity: 0.9;
     transition: 0.2s;
 }
@@ -139,7 +153,7 @@ a:hover {
     justify-content: space-between;
     width: 460px;
     /* margin-top: 7px; */
-    padding-top: 2px;
+    padding-top: 0px;
     /* border: 1px black solid; */
     margin: 0 auto;
 }
@@ -173,10 +187,10 @@ a:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -70px 0 0 -250px;
-    background-color: rgba(234, 234, 234, 0.8);
+    margin: -70px 10px 10px -250px;
+    /* background-color: rgba(234, 234, 234, 0.6); */
     /* backdrop-filter: blur(10px); */
-    opacity: 1;
+    /* opacity: 1; */
     border-radius: 20px;
 }
 
