@@ -1,11 +1,11 @@
 // Some random colors
-var fixed = document.getElementsByClassName('child');
-
-fixed.addEventListener('touchmove', function(e) {
-
-        e.preventDefault();
-
-}, false);
+// var fixed = document.getElementsByClassName('child');
+//
+// fixed.addEventListener('touchmove', function(e) {
+//
+//         e.preventDefault();
+//
+// }, false);
 
 
 const colors = ["#54494B", "#DB2763", "#F1F7ED", "#00FDDC", "#FF5666"];
