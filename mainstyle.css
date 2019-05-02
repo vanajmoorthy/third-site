@@ -21,13 +21,13 @@ body {
     animation-fill-mode: both;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 650px) {
   #flex-container {
      display: block !important;
-     font-size: 2.2em;
+     font-size: 1.5em;
   }
   div.child {
-     margin: -200px 0px 0px -250px;
+     margin: -173px 0px 0px -250px;
   }
 }
 
