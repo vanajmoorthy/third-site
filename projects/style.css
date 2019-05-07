@@ -6420,8 +6420,8 @@ hr.style1 {
 
 footer {
     background-color: #333333;
-    height: 67px;
-    width: auto;
+    height: auto;
+    width: 100vw;
 }
 
 #notSpecific {
