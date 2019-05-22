@@ -6418,21 +6418,25 @@ hr.style1 {
     background-color: #f8f8f8
 }
 
-footer {
-    background-color: #333333;
-    height: 67px;
-    width: auto;
-}
-
 #notSpecific {
     text-align: center;
     color: white;
 }
 
-.parent {
-  position: relative;
-  height: 67px;
-}
+
+.hold {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  
+  .footer{
+        background-color: #333333;
+        height: 50px;
+        width: 100vw;
+    }
 
 .child {
   width: 300px;
