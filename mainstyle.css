@@ -23,10 +23,10 @@ body {
 @media screen and (max-width: 1000px) {
   #flex-container {
      display: block !important;
-     font-size: 1.5em;
+     font-size: 2em;
   }
   div.child {
-     margin: -173px 0px 0px -250px;
+     margin: -253px 0px 0px -257px;
   }
 }
 
@@ -64,7 +64,6 @@ body {
 
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 p {
@@ -104,11 +103,6 @@ a {
     transition: 0.3s
 }
 
-a:hover {
-     /* color: #1DA7EA; */
-    /* font-size: 30[px; */
-
-}
 
 #animate:after, #animate:visited:after {
     content: '';
