@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    /* text-align: justify; */
 }
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
@@ -314,6 +315,7 @@ h2 {
 
 #specific {
     display: inline;
+    /* text-align: right; */
 }
 
 h3 {
@@ -354,7 +356,8 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    /* text-align: justify; */
 }
 
 small {
