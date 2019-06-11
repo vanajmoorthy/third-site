@@ -5741,7 +5741,7 @@ pre {
 }
 
 .markdown-body>*:last-child {
-    margin-bottom: 0 !important
+    margin-bottom: -5px !important
 }
 
 .markdown-body a:not([href]) {
