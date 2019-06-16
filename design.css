@@ -26,7 +26,10 @@ body {
      font-size: 2em;
   }
   div.child {
-     margin: -253px 0px 0px -257px;
+     margin: -260px 0px 0px -250px;
+  }
+  h2 {
+      font-size: 1.8em !important;
   }
 }
 
