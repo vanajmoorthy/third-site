@@ -55,7 +55,6 @@ abbr[title] {
 #animate {
   text-decoration: none;
   position: relative;
-  /* color: #069; */
 }
 
 #animate:visited {
@@ -303,19 +302,13 @@ h1 {
     font-weight: 600
 }
 
-/* #yomom {
-    padding-bottom: 0px !important;
-} */
-
 h2 {
     font-size: 24px;
     font-weight: 600
-    /* padding: 100px !important; */
 }
 
 #specific {
     display: inline;
-    /* text-align: right; */
 }
 
 h3 {
@@ -357,7 +350,6 @@ h6 {
 p {
     margin-top: 0;
     margin-bottom: 10px;
-    /* text-align: justify; */
 }
 
 small {
@@ -5769,7 +5761,6 @@ pre {
 
 .markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre {
     margin-top: 0;
-    /* margin-bottom: 16px */
 }
 
 .markdown-body hr {
@@ -5845,15 +5836,12 @@ svg {
 }
 
 .markdown-body h1 {
-    /* padding-bottom: 0.3em; */
     font-size: 2em;
-    /* border-bottom: 1px solid #eaecef; */
 }
 
 .markdown-body h2 {
     padding-bottom: 2em;
     font-size: 1.5em;
-    /* border-bottom: 1px solid #eaecef */
     display: inline;
 }
 
@@ -5876,7 +5864,6 @@ u {
 }
 
 hr.style1 {
-    /* border-top: 1px solid #eaecef; */
     height: 0.7px;
     border-width: 0;
     color: #eaecef;
@@ -5888,7 +5875,6 @@ hr.style2 {
     border-width: 0;
     color: #eaecef;
     background-color: #eaecef;
-    margin-top: 42px;
 }
 
 hr.style3 {
@@ -6473,4 +6459,38 @@ hr.style3 {
 
 .child {
   margin: auto;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
