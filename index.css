@@ -26,7 +26,10 @@ body {
      font-size: 2em;
   }
   div.child {
-     margin: -253px 0px 0px -257px;
+     margin: -340px 0px 0px -257px;
+  }
+  h2 {
+      padding: 10px;
   }
 }
 
@@ -73,6 +76,9 @@ p {
 
 h2 {
     /* padding-bottom: 2em; */
+    padding-left: 40px;
+    padding-right: 40px;
+
     z-index: 2000;
     font-size: 2em;
     /* border-bottom: 1px solid #eaecef */
@@ -180,7 +186,7 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -70px 10px 10px -250px;
+    margin: -70px 10px 10px -370px;
     /* background-color: rgba(234, 234, 234, 0.6); */
     /* backdrop-filter: blur(10px); */
     /* opacity: 1; */

@@ -8,6 +8,18 @@ body {
     margin: 0
 }
 
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    }
+  .grid img {
+    border: 0px solid #ffffff;
+    /* box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3); */
+    max-width: 100%;
+}
+
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
     display: block
 }
@@ -251,12 +263,20 @@ b,strong {
 }
 
 hr,.rule {
+    align: left;
     height: 0;
-    margin: 5px 0;
+    margin-top: 7px;
+    margin-bottom: 0px;
     overflow: hidden;
     background: transparent;
     border: 0;
     border-bottom: 1px solid #dfe2e5
+}
+
+.line {
+    height: 0.2em;
+    width: 105px;
+    background-color: #1da7ea;
 }
 
 hr::before,.rule::before {
@@ -316,14 +336,18 @@ h2 {
     display: inline;
 }
 
+
+
 h3 {
     font-size: 20px;
-    font-weight: 600
+    font-weight: 600;
 }
 
 h4 {
     font-size: 16px;
-    font-weight: 600
+    font-weight: 600;
+    opacity: 0.8;
+
 }
 
 ul.noindent {
@@ -1604,6 +1628,10 @@ pre {
     .float-xl-none {
         float: none !important
     }
+}
+
+.heading {
+    margin-bottom: 20px;
 }
 
 .width-fit {
@@ -5770,10 +5798,9 @@ pre {
 }
 
 .markdown-body hr {
-    height: .2em;
+    height: .25em;
     padding: 0;
-    margin-bottom: 10px;
-    background-color: #1da7ea;
+    background-color: #e1e4e8;
     border: 0
 }
 
@@ -5834,6 +5861,7 @@ svg {
 }
 
 .markdown-body h1 {
+    padding-bottom: 5px;
     font-size: 2em;
 }
 
@@ -5853,10 +5881,6 @@ u {
     margin-bottom: 20px;
 }
 
-hr.style4 {
-    width: 127px;
-}
-
 hr.style1 {
     /* border-top: 1px solid #eaecef; */
     height: 0.7px;
@@ -5870,14 +5894,20 @@ hr.style2 {
     border-width: 0;
     color: #eaecef;
     background-color: #eaecef;
-    margin-top: 42px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
 }
+
+
 
 .markdown-body h3 {
     font-size: 1.25em
 }
 
 .markdown-body h4 {
+    padding-top: 3px; 
+    padding-bottom: 10px; 
     font-size: 1em
 }
 
@@ -6007,6 +6037,8 @@ hr.style2 {
     clear: both;
     color: #24292e
 }
+
+active
 
 .markdown-body span.align-center {
     display: block;
@@ -6187,6 +6219,11 @@ hr.style2 {
 .highlight .c,.highlight .cd {
     color: #999988;
     font-style: italic
+}
+
+#active {
+    color: #1da7ea;
+    text-decoration: under;
 }
 
 .highlight .err {
@@ -6465,6 +6502,10 @@ hr.style2 {
     100% {
         opacity: 1;
     }
+}
+
+.grid {
+    padding-bottom: 119px;
 }
 
 .fadeIn {
