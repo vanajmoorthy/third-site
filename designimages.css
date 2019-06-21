@@ -6562,7 +6562,11 @@ active
 @media (max-width: 472px) {
 	.g-drive-embed {
 		justify-self: center;
-	}
+    }
+    
+    .grid {
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 361px) {

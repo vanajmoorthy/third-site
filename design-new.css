@@ -1201,6 +1201,10 @@ pre {
 	.g-drive-embed {
 		justify-self: center;
 	}
+
+	.grid {
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 361px) {
