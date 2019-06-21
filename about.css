@@ -291,7 +291,7 @@ a {
 }
 
 a:hover {
-    color: #1da7ea;
+	color: #1da7ea;
 }
 
 b,
@@ -299,10 +299,24 @@ strong {
 	font-weight: 600;
 }
 
+::-webkit-scrollbar {
+	width: 8px; /* for vertical scrollbars */
+	height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
 hr,
 .rule {
 	height: 0;
-	margin: 5px 0;
+	margin: 2px 0;
 	overflow: hidden;
 	background: transparent;
 	border: 0;
@@ -5977,12 +5991,12 @@ u {
 }
 
 hr.style4 {
-    width: 220px;
-    height: 0.2em;
-    padding: 0;
-    margin-bottom: 20px;
-    background-color: #1da7ea;
-    border: 0;
+	width: 220px;
+	height: 0.2em;
+	padding: 0;
+	margin-bottom: 20px;
+	background-color: #1da7ea;
+	border: 0;
 }
 
 hr.style1 {
@@ -5994,19 +6008,19 @@ hr.style1 {
 
 hr.style2 {
 	height: 0.7px;
-    border-width: 0;
-    color: #eaecef;
-    background-color: #eaecef;
-    margin-top: 20px;
-    margin-bottom: 25px; 
+	border-width: 0;
+	color: #eaecef;
+	background-color: #eaecef;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 hr.style3 {
 	height: 0.7px;
-    border-width: 0;
-    color: #eaecef;
-    background-color: #eaecef;
-    margin-top: 42px;
+	border-width: 0;
+	color: #eaecef;
+	background-color: #eaecef;
+	margin-top: 42px;
 }
 
 .markdown-body h3 {
@@ -6679,9 +6693,9 @@ li.cont3 {
 	}
 
 	h1 {
-        text-align: center;
-        text-decoration: overline;
-        padding-bottom: 10px;
+		text-align: center;
+		text-decoration: overline;
+		padding-bottom: 10px;
 	}
 
 	h3 {
@@ -6691,12 +6705,12 @@ li.cont3 {
 	hr,
 	.rule {
 		height: 0;
-        margin-top: 15px;
-        /* margin: ; */
+		margin-top: 15px;
+		/* margin: ; */
 		overflow: hidden;
-        background: transparent;
-        display: none;
+		background: transparent;
+		display: none;
 		border: 0;
 		border-bottom: 1px solid #dfe2e5;
-    }
+	}
 }

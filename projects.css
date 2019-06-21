@@ -250,9 +250,23 @@ b,strong {
     font-weight: 600
 }
 
+::-webkit-scrollbar {
+	width: 8px; /* for vertical scrollbars */
+	height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
 hr,.rule {
     height: 0;
-    margin: 5px 0;
+    margin: 2px 0;
     overflow: hidden;
     background: transparent;
     border: 0;
