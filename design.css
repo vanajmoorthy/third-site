@@ -8,6 +8,20 @@ body {
     font-style: normal;
 }
 
+::-webkit-scrollbar {
+	width: 8px; /* for vertical scrollbars */
+	height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
 .animated {
     /* background-image: url(/css/images/logo.png); */
     background-repeat: no-repeat;

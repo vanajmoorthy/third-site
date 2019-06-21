@@ -5856,12 +5856,26 @@ svg {
     visibility: visible
 }
 
+::-webkit-scrollbar {
+	width: 8px; /* for vertical scrollbars */
+	height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
 .markdown-body h1 tt,.markdown-body h1 code,.markdown-body h2 tt,.markdown-body h2 code,.markdown-body h3 tt,.markdown-body h3 code,.markdown-body h4 tt,.markdown-body h4 code,.markdown-body h5 tt,.markdown-body h5 code,.markdown-body h6 tt,.markdown-body h6 code {
     font-size: inherit
 }
 
 .markdown-body h1 {
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     font-size: 2em;
 }
 
@@ -5890,7 +5904,7 @@ hr.style1 {
 }
 
 hr.style2 {
-    height: 0.7px;
+    height: 0.9px;
     border-width: 0;
     color: #eaecef;
     background-color: #eaecef;
@@ -5906,7 +5920,7 @@ hr.style2 {
 }
 
 .markdown-body h4 {
-    padding-top: 3px; 
+    padding-top: 10px; 
     padding-bottom: 10px; 
     font-size: 1em
 }
@@ -6504,8 +6518,80 @@ active
     }
 }
 
+#hold-loader {
+	display: block;
+	height: 150px;
+}
+
+.loader {
+	border: 10px solid #f3f3f3; /* Light grey */
+	border-top: 10px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 90px;
+	margin: auto;
+	margin-top: 180px;
+	height: 90px;
+	animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 472px) {
+	.g-drive-embed {
+		justify-self: center;
+	}
+}
+
+@media (max-width: 361px) {
+	#hold-loader {
+		height: 10vh !important;
+		margin-bottom: 22vh;
+	}
+}
+
+@media (max-width: 412px) {
+	#hold-loader {
+		height: 24vh !important;
+		margin-bottom: 23vh;
+	}
+}
+
+.g-drive-embed {
+    display: none;
+}
+
 .grid {
     padding-bottom: 119px;
+}
+
+#line-under {
+    border-bottom: 3px solid #1da7ea;
+    border-spacing: 0px;
+    display: inline-block;
+    line-height: 0.9;
 }
 
 .fadeIn {
