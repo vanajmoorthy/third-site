@@ -1,0 +1,24 @@
+{
+  "name": "vanajmoorthy.com",
+  "version": "1.0.0",
+  "description": "Link page for GH pages projects",
+  "main": "anim.js",
+  "dependencies": {
+    "clean-css-cli": "^4.3.0",
+    "g": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanajmoorthy/vanajmoorthy.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanajmoorthy/vanajmoorthy.github.io/issues"
+  },
+  "homepage": "https://github.com/vanajmoorthy/vanajmoorthy.github.io#readme"
+}
