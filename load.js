@@ -3,6 +3,7 @@ window.onload = function() {
 	console.log("fuck");
 
 	var iframeElements = document.getElementsByClassName("g-drive-embed");
+	var foot = document.getElementById("stick");
 
 	for (var i = 0, max = iframeElements.length; i < max; i++) {
 		iframeElements[i].style.display = "block";
@@ -10,4 +11,5 @@ window.onload = function() {
 
 	var circleLoader = document.getElementById("hold-loader");
 	circleLoader.style.display = "none";
+	// foot.style.opacity = "1";
 };

@@ -6714,3 +6714,13 @@ li.cont3 {
 		border-bottom: 1px solid #dfe2e5;
 	}
 }
+
+.wrappest {
+	min-height: calc(100vh - 156px);
+}
+
+#stick {
+	position: relative !important;
+	bottom: 0px;
+	opacity: 1;
+}

@@ -6671,7 +6671,7 @@ active .markdown-body span.align-center {
 	border-radius: 50%;
 	width: 90px;
 	margin: auto;
-	margin-top: 180px;
+	margin-top: calc(100vh - 75vh);
 	height: 90px;
 	animation: spin 2s linear infinite;
   }
@@ -6715,7 +6715,18 @@ active .markdown-body span.align-center {
 	animation-fill-mode: both;
 }
 
-.stick {
-	position: absolute !important;
+#stick {
+	position: relative !important;
 	bottom: 0px;
+	opacity: 1;
 }
+
+.wrappest {
+	min-height: calc(100vh - 156px);
+}
+
+.per,
+.push {
+	height: 20px;
+}
+

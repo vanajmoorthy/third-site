@@ -6449,6 +6449,7 @@ hr.style2 {
     text-align: center;
     color: black;
     margin-bottom: 0px;
+    margin-top: 30px !important;
 }
   
   .footer{
@@ -6493,4 +6494,8 @@ hr.style2 {
     animation-duration: 2.7s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+.wrappest {
+	min-height: calc(100vh - 140px);
 }
