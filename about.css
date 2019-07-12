@@ -6704,14 +6704,12 @@ li.cont3 {
 
 	hr,
 	.rule {
-		height: 0;
-		margin-top: 15px;
-		/* margin: ; */
-		overflow: hidden;
-		background: transparent;
-		display: none;
-		border: 0;
-		border-bottom: 1px solid #dfe2e5;
+		height: .7px;
+		border-width: 0;
+		color: #eaecef;
+		background-color: #eaecef;
+		margin-top: 20px;
+		margin-bottom: 25px;
 	}
 }
 
