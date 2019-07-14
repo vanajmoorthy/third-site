@@ -6711,6 +6711,10 @@ li.cont3 {
 		margin-top: 20px;
 		margin-bottom: 25px;
 	}
+
+	hr.style4 {
+		display: none;
+	}
 }
 
 .wrappest {
