@@ -1,9 +1,10 @@
-# newwebsite
-Working on my new website
+# vanajmoorthy.com
+Website redesign done
 
-THis is a README
+Personal portfolio like website
 
-WOrking on my new website, moon and all, BG p5.js stuff and all.
+## To Do
+Add fade-in animation (yes, I'm that lazy).
 
 ## Pages
 * Home
