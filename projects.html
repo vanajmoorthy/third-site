@@ -1,230 +1,165 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="JS/index.js"></script> -->
+    <script src="JS/p5.min.js"></script>
+    <script src="JS/circles.js"></script>
+    <link rel="stylesheet" href="public\build\tailwind.css">
     <title>Vanaj Moorthy: Projects</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <meta property="og:title" content="vanajmoorthy.com" />
-    <meta name="description" content="Link page for GH pages projects" />
-    <link rel="canonical" href="https://vanajmoorthy.com/" />
-    <link rel="stylesheet" href="https://use.typekit.net/hjk6uuj.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141735221-1"></script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-141735221-1');
-    </script> -->
-
-    <script type="application/ld+json">
-        {
-            "@type": "WebSite",
-            "url": "https://vanajmoorthy.com/",
-            "headline": "vanajmoorthy.com",
-            "name": "vanajmoorthy.com",
-            "description": "Link page for GH pages projects",
-        }
-    </script>
-    <!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="projects.min.css">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142986613-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-142986613-1');
-    </script>
-
 </head>
 
 <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-        <div class="animated fadeIn">
-            <div class="wrappest">
-                <a href="index.html">
+    <!-- <div class="container mx-auto px-32 py-16 h-12"> -->
+    <div class="container mx-auto px-10 py-10 h-12" style="min-height: calc(100vh - 0px);">
+        <svg class="inline mb-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18"
+            viewBox="0 -25 192 192" style=" fill:#FFFFFF;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                style="mix-blend-mode: normal">
+                <path d="M0,192v-192h192v192z" fill="none"></path>
+                <g fill="#FFFFFF">
+                    <g id="surface1">
+                        <path
+                            d="M107.71154,26.48077l-69.51923,69.51923l69.51923,69.51923l20.88462,-20.88462l-48.63462,-48.63462l48.63462,-48.63461z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <a id="link" href="index.html">
 
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15"
-                        viewBox="0 -25 192 192" style=" fill:#000000;">
-                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                            style="mix-blend-mode: normal">
-                            <path d="M0,192v-192h192v192z" fill="none"></path>
-                            <g fill="#333333">
-                                <g id="surface1">
-                                    <path
-                                        d="M107.71154,26.48077l-69.51923,69.51923l69.51923,69.51923l20.88462,-20.88462l-48.63462,-48.63462l48.63462,-48.63461z">
-                                    </path>
-                                </g>
-                            </g>
-                        </g>
-                    </svg>
-                    <span id="animate">
-                        <p id="specific">Back</p>
-                    </span>
+            <p class="text-gray-200 inline font-medium">Back</p>
 
-                </a>
-<!-- 
-                <div id="spaceman"></div>
-                <script src="background-gifs/Spaceman/lottie.js"></script>
-                <script src="background-gifs/Spaceman/script.js"></script>
+        </a>
+        <h1 class="text-gray-200 font-bold text-4xl underline pb-3 pt-4">
+            Projects
+        </h1>
 
-                <div id="flag"></div>
-                <script src="background-gifs/lottie.js"></script>
-                <script src="background-gifs/script.js"></script> -->
+        <p class="text-gray-200 pb-3 font-bold">I do a lot of random things with my time.</p>
+        <p class="text-gray-200 font-bold">This section is a link page for some of my random and inane projects.</p>
+        <ul class="py-8">
+            <li class="mb-5">
+                <h2 class="font-bold text-2xl inline"> <a id="link" href="https://vanajmoorthy.com/clock"
+                        target="_blank">Clock</a> 🕒</h2>
+                <p class="text-gray-200 inline font-medium"> A simple graphical clock I implemented using a little bit of
+                    trigonometry
+                    and
+                    some
+                    bad
+                    colour choices. Made using <a class="sublinks" href="https://p5js.org/"
+                        target="_blank"><u>p5.js.</u></a></p>
+            </li>
 
-                
+            <li class="pb-5">
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a id="link" href="https://vanajmoorthy.com/snake"
+                        target="_blank">Snake
+                    </a> 🍎</h2>
+                <p class="text-gray-200 inline font-medium"> This is an emulation of the classic game <a
+                        class="sublinks" href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)"
+                        target="_blank"><u>snake</u></a> I
+                    made whilst bored one night. Made using <a class="sublinks" href="https://p5js.org/"
+                        target="_blank"><u>p5.js</u>.</a>
+                </p>
+            </li>
 
-                <h1 class="aHeader">
-                    Projects
-                </h1>
-                <hr class="style4" noshade>
+            <li class="pb-5">
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a id="link"
+                        href="https://vanajmoorthy.com/JockyCipher" target="_blank">JockyCipher</a> 🔑</h2>
+                <p class="text-gray-200 inline font-medium">A ROT based cipher (with a twist) I made after a conversation
+                    between some
+                    friends.
+                    Made with vanilla JavaScript and <a class="sublinks" href="https://webkit.org/"
+                        target="_blank"><u>WebKit</u></a>
+                    for
+                    some nice UI elements.</p>
+            </li>
 
+            <li class="pb-5">
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a id="link" href="https://vanajmoorthy.com/paint"
+                        target="_blank">Paint</a> 🎨</h2>
+                <p class="text-gray-200 inline font-medium">Inspired by <a class="sublinks"
+                        href="https://en.wikipedia.org/wiki/Microsoft_Paint" target="_blank"><u>Microsoft Paint</u></a>,
+                    this artistic utility application is
+                    incredibly
+                    buggy and outdatedly bare-bones but will leave you all
+                    the more satisfied when you <i>finally</i> manage to complete a drawing without losing all
+                    your
+                    work. Made using <a class="sublinks" href="https://p5js.org/"
+                        target="_blank"><u>p5.js.</u></a></p>
+            </li>
 
-                <p>I do a lot of random things with my time.</p>
-                <p>This section is a link page for some of my random and inane projects.</p>
+            <li class="pb-5">
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a id="link" href="https://vanajmoorthy.com/maze"
+                        target="_blank">Maze</a> 🔢</h2>
+                <p class="text-gray-200 inline font-medium">A <a class="sublinks"
+                        href="https://en.wikipedia.org/wiki/Depth-first_search" target="_blank"><u>randomised depth
+                            first search</u></a> maze generation algorithm
+                    implemented
+                    using a <a class="sublinks"
+                        href="http://people.cs.ksu.edu/~ashley78/wiki.ashleycoleman.me/index.php/Recursive_Backtracker.html"
+                        target="_blank"><u>recursive backtracker</u></a>. Complete with playablity and a score
+                    timer.
+                    The pseudo code for this algorithm can be found on <a class="sublinks"
+                        href="https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_Depth-First_Search"
+                        target="_blank"><u>Wikipedia</u></a>. Made using <a class="sublinks"
+                        href="https://p5js.org/" target="_blank"><u>p5.js</u></a> and <a class="sublinks"
+                        href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+                        target="_blank"><u>ES6 LocalStorage.</u></a></p>
+            </li>
 
-                <hr class="style1" noshade>
+            <li class="pb-5">
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a class="sublinks" id="link"
+                        href="https://vanajmoorthy.com/graph" target="_blank">Graph</a> 📈</h2>
+                <p class="text-gray-200 inline font-medium">A program that takes a mathematical function as input and plots
+                    it on a graph.
+                    Added
+                    functionality includes setting the scale of the units and a complete mathematical expression
+                    parser.
+                    Made using <a class="sublinks" href="https://p5js.org/" target="_blank"><u>p5.js</u></a>
+                    and <a class="sublinks" href="https://mathjs.org/" target="_blank"><u>math.js.</u></a>
+                </p>
+            </li>
 
-                <ul class="noindent">
-                    <li>
-                        <h2> <a href="http://vanajmoorthy.com/clock" target="_blank"><span id="animate">Clock</span>
-                                🕒</a></h2>
-                        <p id="specific"> A simple graphical clock I implemented using a little bit of trigonometry and
-                            some
-                            bad
-                            colour choices. Made using <a href="https://p5js.org/" target="_blank"><u>p5.js</u></a>.</p>
-                    </li>
+            <li class="pb-5">
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a id="link" href="https://vanajmoorthy.com/visualise"
+                        target="_blank">Visualise</a> 🎤</h2>
+                <p class="text-gray-200 inline font-medium">A sketch that generates balls when you click/drag which react to
+                    the sound
+                    input from your microphone. The intensitity of the reaction is adjustable using a slider.
+                    Made using <a class="sublinks" href="https://p5js.org/"
+                        target="_blank"><u>p5.js.</u></a></a>
+                </p>
+            </li>
+            <li class="pb-5">
+                <br>
+                <h2 class="text-gray-200 font-bold text-2xl inline"> <a id="link" href="https://vanajmoorthy.com/visualise"
+                        target="_blank">Coming Soon</a> 🔜</h2>
+                <p class="text-gray-200 inline font-medium">Yoda Translator, Fractal Tree Generator, and Double Pendulum
+                    Simulation.
+                    </a> </p>
+                    <p class="text-gray-200 pt-4 font-medium">
+                    All the code for these projects can be found at <a class="sublinks" href="https://github.com/vanajmoorthy"
+                        target="_blank"><u>github.com/vanajmoorthy</u></a>.
+                </p>
+            </li>
+        </ul>
 
-                    <li>
-                        <h2> <a href="http://vanajmoorthy.com/snake" target="_blank"><span id="animate">Snake</span>
-                                🍎</a></h2>
-                        <p id="specific"> This is an emulation of the classic game <a
-                                href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)"
-                                target="_blank"><u>snake</u></a> I
-                            made whilst bored one night. Made using <a href="https://p5js.org/"
-                                target="_blank"><u>p5.js</u>.</a>
-                        </p>
-                    </li>
-
-                    <li>
-                        <h2> <a href="https://vanajmoorthy.com/JockyCipher" target="_blank"><span
-                                    id="animate">JockyCipher</span> 🔑</a></h2>
-                        <p id="specific"> A ROT based cipher (with a twist) I made after a conversation between some
-                            friends.
-                            Made with vanilla JavaScript and <a href="https://webkit.org/"
-                                target="_blank"><u>WebKit</u></a>
-                            for
-                            some nice UI elements.</p>
-                    </li>
-
-                    <li>
-                        <h2> <a href="https://vanajmoorthy.com/paint" target="_blank"><span id="animate">Paint</span>
-                                🎨</a></h2>
-                        <p id="specific"> Inspired by <a href="https://en.wikipedia.org/wiki/Microsoft_Paint"
-                                target="_blank"><u>Microsoft Paint</u></a>, this artistic utility application is
-                            incredibly
-                            buggy and outdatedly bare-bones but will leave you all
-                            the more satisfied when you <i>finally</i> manage to complete a drawing without losing all
-                            your
-                            work. Made using <a href="https://p5js.org/" target="_blank"><u>p5.js</u></a>.</p>
-                    </li>
-
-                    <li>
-
-                        <h2><a href="https://vanajmoorthy.com/maze" target="_blank"><span id="animate">Maze</span>
-                                🔢</a>
-                        </h2>
-                        <p id="specific"> A <a href="https://en.wikipedia.org/wiki/Depth-first_search"
-                                target="_blank"><u>randomised depth first search</u></a> maze generation algorithm
-                            implemented
-                            using a <a
-                                href="http://people.cs.ksu.edu/~ashley78/wiki.ashleycoleman.me/index.php/Recursive_Backtracker.html"
-                                target="_blank"><u>recursive backtracker</u></a>. Complete with playablity and a score
-                            timer.
-                            The pseudo code for this algorithm can be found on <a
-                                href="https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_Depth-First_Search"
-                                target="_blank"><u>Wikipedia</u></a>. Made using <a href="https://p5js.org/"
-                                target="_blank"><u>p5.js</u></a> and <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
-                                target="_blank"><u>ES6 LocalStorage</u></a>.</p>
-                    </li>
-
-                    <li>
-
-                        <h2><a href="https://vanajmoorthy.com/graph" target="_blank"><span id="animate">Graph</span>
-                                📈</a>
-                        </h2>
-                        <p id="specific"> A program that takes a mathematical function as input and plots it on a graph.
-                            Added
-                            functionality includes setting the scale of the units and a complete mathematical expression
-                            parser.
-                            Made using <a href="https://p5js.org/" target="_blank"><u>p5.js</u></a> and <a
-                                href="https://mathjs.org/" target="_blank"><u>math.js</u></a>.</p>
-                    </li>
-
-                    <li>
-
-                        <h2><a href="https://vanajmoorthy.com/visualise" target="_blank"><span
-                                    id="animate">Visualise</span>
-                                🎤</a>
-                        </h2>
-                        <p id="specific">A sketch that generates balls when you click/drag which react to the sound
-                            input from your microphone. The intensitity of the reaction is adjustable using a slider.
-                            Made using <a href="https://p5js.org/" target="_blank"><u>p5.js</u></a>.</p>
-                    </li>
-                    <!-- <hr class="style1" noshade> -->
-                    <li>
-
-                        <h2> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><span
-                                    id="animate"></span>Coming
-                                Soon 🔜</h2>
-                        <p id="specific">Yoda Translator, Fractal Tree Generator, and Double Pendulum Simulation.</p>
-                        </a>
-                        <p>All the code for these projects can be found at <a href="https://github.com/vanajmoorthy"
-                                target="_blank"><u>github.com/vanajmoorthy</u></a>.</p>
-
-
-                    </li>
-
-                </ul>
-            </div>
-
-            <div id="stick">
-                <hr class="style2" noshade>
-                <div class="hold">
-                    <footer>
-                        <div class="parent">
-                            <div class="child">
-                                <p id="notSpecific">© Vanaj Moorthy, 2019.</p>
-                            </div>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-        </div>
     </div>
 
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
-        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <!-- <script>
-        anchors.add();
-    </script> -->
-
+    <!-- <footer class="h-32">
+        <div class="pr-0">
+            <div
+                class="text-center text-gray-200 text-base font-medium h-12 w-full sm:w-full md:w-full lg:w-full xl:w-full md-4 float-right text-un">
+                © Vanaj Moorthy, 2019
+            </div>
+        </div>
+    </footer> -->
+    <!-- </div> -->
 </body>
 
 </html>
