@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Description" content="Designer: Vanaj Moorthy, Programmer: Vanaj Moorthy, Page: About, Technologies Used: Tailwind CSS, P5.js.">
+    <meta name="Description"
+        content="Designer: Vanaj Moorthy, Programmer: Vanaj Moorthy, Page: About, Technologies Used: Tailwind CSS, P5.js.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <script src="JS/sine.js"></script> -->
@@ -22,6 +23,9 @@
 </head>
 
 <body>
+    <script>
+        document.body.classList.add('fade');
+    </script>
     <main class="container mx-auto px-8 py-10 h-12">
         <div class="flex flex-wrap pb-10">
             <div class="w-full pb-8">
@@ -305,16 +309,24 @@
                     </li>
                 </ul>
                 <div class="mt-8 border-t-2 pt-5">
-                        <h3 class="inline text-gray-200 font-bold">Find Me:</h3>
-    
-                        <p class="inline text-gray-200 px-5 font-medium"><a id="link" target="_blank" href="https://github.com/vanajmoorthy">Github</a></p>
-                        <p class="inline text-gray-200 px-5 font-medium"><a id="link" target="_blank" href="https://www.instagram.com/vanajmoorthy/">Instagram</a></p>
-                        <p class="inline text-gray-200 px-5 font-medium"><a id="link" target="_blank" href="mailto:vanajmoorhy@gmail.com">Mail</a></p>
-    
-                    </div>
+                    <h3 class="inline text-gray-200 font-bold">Find Me:</h3>
+
+                    <p class="inline text-gray-200 px-5 font-medium"><a id="link" target="_blank"
+                            href="https://github.com/vanajmoorthy">Github</a></p>
+                    <p class="inline text-gray-200 px-5 font-medium"><a id="link" target="_blank"
+                            href="https://www.instagram.com/vanajmoorthy/">Instagram</a></p>
+                    <p class="inline text-gray-200 px-5 font-medium"><a id="link" target="_blank"
+                            href="mailto:vanajmoorhy@gmail.com">Mail</a></p>
+
+                </div>
             </div>
         </div>
     </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (e) {
+            document.body.classList.remove('fade');
+        });
+    </script>
 </body>
 
 </html>

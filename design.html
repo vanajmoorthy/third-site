@@ -9,14 +9,22 @@
     <title>Design</title>
 </head>
 
-<body style="background-color: black">
+<body class="bg-black">
+    <script>
+        document.body.classList.add('fade');
+    </script>
     <p class="text-white m-auto text-6xl text-center pt-12 leading-none">It come soon.</p>
     <p class="text-white m-auto text-4xl text-center pt-5">Go <a id="link" href="index.html">back</a>.</p>
 
-
     <div class="w-full m-auto">
-        <img class="m-auto -p-5" src="public/build/STATIC/img/thonk.png" alt="thonk"/>
+        <img class="m-auto -p-5" src="public/build/STATIC/img/thonk.png" alt="thonk" />
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (e) {
+            document.body.classList.remove('fade');
+        });
+    </script>
 </body>
 
 </body>

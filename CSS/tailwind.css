@@ -44,6 +44,16 @@ body {
 	@apply text-blue-400;
 }
 
+body {
+	opacity: 1;
+	transition: 1s opacity;
+}
+
+body.fade {
+	opacity: 0;
+	transition: none;
+}
+
 #noscroll {
 	font-family: "CerealBook", sans-serif;
 	background-color: #000000;
