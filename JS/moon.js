@@ -11,6 +11,6 @@ function draw() {
 	sphere(160, 50, 50);
 }
 
-function windowResized() {
-	resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+// 	resizeCanvas(windowWidth, windowHeight);
+// }
