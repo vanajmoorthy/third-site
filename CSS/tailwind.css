@@ -29,7 +29,7 @@
 
 body {
 	font-family: "CerealBook", sans-serif;
-	background-color: #000000;
+	background-color: #121212;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -56,7 +56,7 @@ body.fade {
 
 #noscroll {
 	font-family: "CerealBook", sans-serif;
-	background-color: #000000;
+	background-color: #121212;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
