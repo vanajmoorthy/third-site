@@ -1,5 +1,5 @@
 {
-  "name": "vanajmoorthy.github.io",
+  "name": "Vanaj Moorthy",
   "private": true,
   "description": "Vanaj Moorthy's personal website",
   "version": "0.1.0",
@@ -44,7 +44,6 @@
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.0.11",
-    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -60,12 +59,11 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vanajmoorthy/vanajmoorthy.github.io"
+    "url": "https://github.com/margueriteroth/gatsby-prismic-starter-prist"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
