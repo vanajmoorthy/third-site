@@ -53,7 +53,6 @@ exports.createPages = async ({ graphql, actions }) => {
     const postsList = result.data.prismic.allPosts.edges;
 
     const projectTemplate = require.resolve('./src/templates/project.jsx');
-    const postTemplate = require.resolve('./src/templates/post.jsx');
 
     projectsList.forEach(edge => {
         // The uid you assigned in Prismic is the slug!
@@ -69,15 +68,15 @@ exports.createPages = async ({ graphql, actions }) => {
         })
     })
 
-    postsList.forEach(edge => {
-        createPage({
-            type: 'Project',
-            match: '/blog/:uid',
-            path: `/blog/${edge.node._meta.uid}`,
-            component: postTemplate,
-            context: {
-                uid: edge.node._meta.uid,
-            },
-        })
-    })
+    // postsList.forEach(edge => {
+    //     createPage({
+    //         type: 'Project',
+    //         match: '/blog/:uid',
+    //         path: `/blog/${edge.node._meta.uid}`,
+    //         component: postTemplate,
+    //         context: {
+    //             uid: edge.node._meta.uid,
+    //         },
+    //     })
+    // })
 }
