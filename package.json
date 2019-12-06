@@ -1,5 +1,5 @@
 {
-  "name": "Vanaj Moorthy",
+  "name": "vanajmoorthy.com",
   "private": true,
   "description": "Vanaj Moorthy's personal website",
   "version": "0.1.0",
@@ -59,7 +59,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "npm run build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
