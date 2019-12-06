@@ -38,7 +38,6 @@ const HeaderLinks = styled("div")`
         font-weight: 600;
         font-size: 0.95em;
         height: 100%;
-        padding-bottom: 1.25em;
         padding-top: 0.25em;
         display: block;
         position: relative;
@@ -47,12 +46,11 @@ const HeaderLinks = styled("div")`
             position: absolute;
             content: "";
             bottom: 0;
-            width: 18px;
+            width: 30px;
             height: 3px;
             background: transparent;
-            bottom: -3px;
             right: 50%;
-            margin-right: -9px;
+            margin-right: -15px;
             transition: 100ms ease-in-out background;
         }
 
