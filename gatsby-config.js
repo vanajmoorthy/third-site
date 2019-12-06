@@ -33,13 +33,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-prismic-starter-prist`,
-        short_name: `prist`,
+        name: `vanaj-moorthy`,
+        short_name: `vanaj`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/

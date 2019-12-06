@@ -11,6 +11,7 @@ const BlogTitle = styled("h1")`
     margin-bottom: 1em;
 `
 
+
 const BlogGrid = styled("div")`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -72,15 +73,11 @@ const Blog = ({ posts, meta }) => (
                 Code
             </BlogTitle>
             <BlogGrid>
-                {posts.map((post, i) => (
+                {posts.map((post) => (
                     <PostCard
-                        key={i}
-                        author={post.node.post_author}
-                        category={post.node.post_category}
                         title={post.node.post_title}
-                        date={post.node.post_date}
                         description={post.node.post_preview_description}
-                        uid={post.node._meta.uid}
+                        link={post.node.post_link.url}
                     />
                 ))}
             </BlogGrid>
@@ -113,6 +110,12 @@ export const query = graphql`
                         post_title
                         post_category
                         post_preview_description
+                        post_link {
+                            __typename
+                            ... on PRISMIC__ExternalLink {
+                                url
+                              }
+                        }
                         post_hero_annotation
                         post_body
                         _meta {

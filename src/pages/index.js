@@ -7,6 +7,7 @@ import colors from "styles/colors";
 import dimensions from "styles/dimensions";
 import Button from "components/_ui/Button";
 import Layout from "components/Layout";
+import { graphql } from "gatsby";
 
 
 const Hero = styled("div")`
@@ -90,7 +91,7 @@ const RenderBody = ({ home, projects, meta }) => (
             <>
                 {RichText.render(home.hero_title)}
             </>
-            <a href={home.hero_button_link.url}
+            <a href="https://www.dropbox.com/s/fo4nnbeclwq4nkc/resume.pdf?dl=0"
                target="_blank" rel="noopener noreferrer">
                 <Button>
                     {RichText.render(home.hero_button_text)}

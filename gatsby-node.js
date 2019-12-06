@@ -23,6 +23,12 @@ exports.createPages = async ({ graphql, actions }) => {
                             project_preview_description
                             project_preview_thumbnail
                             project_category
+                            project_link {
+                                __typename 
+                                ... on PRISMIC__ExternalLink{
+                                    url
+                                  }
+                            }
                             project_post_date
                             _meta {
                                 uid
@@ -35,6 +41,12 @@ exports.createPages = async ({ graphql, actions }) => {
                         node {
                             post_title
                             post_hero_annotation
+                            post_link {
+                                __typename 
+                                ... on PRISMIC__ExternalLink{
+                                    url
+                                  }
+                            }
                             post_category
                             post_body
                             post_preview_description
@@ -53,7 +65,6 @@ exports.createPages = async ({ graphql, actions }) => {
     const postsList = result.data.prismic.allPosts.edges;
 
     const projectTemplate = require.resolve('./src/templates/project.jsx');
-    const postTemplate = require.resolve('./src/templates/post.jsx');
 
     projectsList.forEach(edge => {
         // The uid you assigned in Prismic is the slug!
@@ -64,18 +75,6 @@ exports.createPages = async ({ graphql, actions }) => {
             component: projectTemplate,
             context: {
                 // Pass the unique ID (uid) through context so the template can filter by it
-                uid: edge.node._meta.uid,
-            },
-        })
-    })
-
-    postsList.forEach(edge => {
-        createPage({
-            type: 'Project',
-            match: '/blog/:uid',
-            path: `/blog/${edge.node._meta.uid}`,
-            component: postTemplate,
-            context: {
                 uid: edge.node._meta.uid,
             },
         })
