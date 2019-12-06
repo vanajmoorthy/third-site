@@ -101,7 +101,7 @@ const Post = ({ post, meta }) => {
   return (
     <>
       <Helmet
-        title={"Hello"}
+        title={"Vanaj Moorthy"}
         titleTemplate={`%s | ${meta.title}`}
         meta={[
           {
@@ -110,7 +110,7 @@ const Post = ({ post, meta }) => {
           },
           {
             property: `og:title`,
-            content: `${post.post_title[0].text} | Prist, Gatsby & Prismic Starter`,
+            content: `Vanaj Moorthy's Personal Site`,
           },
           {
             property: `og:description`,
@@ -163,7 +163,7 @@ const Post = ({ post, meta }) => {
             >
               The Shri Ram School
             </a>
-            , Vasant Vihar. After seven years of loosely-structured primary
+            , Vasant Vihar. After seven years of a loosely-structured primary
             "education", I made my way to the senior branch of the school. Since
             then, I've mostly spent my time pursuing a wide range of interests,
             avoiding expulsion, convincing people I sell whale meat on the{" "}
@@ -174,7 +174,7 @@ const Post = ({ post, meta }) => {
             >
               deep web,
             </a>{" "}
-            and starting gradewide{" "}
+            and starting grade-wide{" "}
             <a
               href="https://en.wikipedia.org/wiki/Social_revolution"
               target="_blank"

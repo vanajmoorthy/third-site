@@ -22,7 +22,7 @@ const Work = ({ projects, meta }) => (
                 },
                 {
                     property: `og:title`,
-                    content: `Work | Prist, Gatsby & Prismic Starter`,
+                    content: `Vanaj Moorthy's Personal Site`,
                 },
                 {
                     property: `og:description`,
@@ -63,6 +63,7 @@ const Work = ({ projects, meta }) => (
                         description={project.node.project_preview_description}
                         thumbnail={project.node.project_preview_thumbnail}
                         uid={project.node._meta.uid}
+                        link={project.node.project_link.url}
                     />
                 ))}
             </>
@@ -94,6 +95,12 @@ export const query = graphql`
                         project_preview_description
                         project_preview_thumbnail
                         project_category
+                        project_link {
+                            __typename 
+                            ... on PRISMIC__ExternalLink{
+                                url
+                              }
+                        }
                         project_post_date
                         _meta {
                             uid
