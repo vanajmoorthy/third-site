@@ -27,7 +27,7 @@ const LayoutContainer = styled.div`
     }
 
     .Layout__content {
-        padding-bottom: 5em;
+        min-height: calc(100vh - 10.5em);
     }
 `;
 
