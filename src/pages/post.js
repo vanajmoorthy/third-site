@@ -102,7 +102,7 @@ const Post = ({ post, meta }) => {
     <>
       <Helmet
         title={"Vanaj Moorthy"}
-        titleTemplate={`%s | ${meta.title}`}
+        titleTemplate={"Vanaj Moorthy"}
         meta={[
           {
             name: `description`,
