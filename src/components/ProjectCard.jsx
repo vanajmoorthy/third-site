@@ -113,7 +113,7 @@ const ProjectCardImageContainer = styled("div")`
   background: ${colors.grey200};
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   overflow: hidden;
   position: relative;
   padding-left: 2em;
@@ -124,7 +124,7 @@ const ProjectCardImageContainer = styled("div")`
     max-height: 200px;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   &:before {
@@ -141,12 +141,14 @@ const ProjectCardImageContainer = styled("div")`
   }
 
   img {
-    max-width: 400px;
-    width: 100%;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
 
     @media (max-width: ${dimensions.maxwidthTablet}px) {
-      max-width: 300px;
+      max-width: 350px;
+      margin-bottom: 40px;
     }
   }
 `
