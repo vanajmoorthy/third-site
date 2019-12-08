@@ -414,7 +414,7 @@ const Post = ({ post, meta }) => {
                 </a>{" "}
                 It was there that my love for music really began. Some time
                 later, my mother told me that she wanted me to start playing the
-                guitar, "Drums aren't a<em>real</em>
+                guitar, "Drums aren't a{" "}<em>real</em>{" "}
                 instrument", seemed to be a popular notion. So I enrolled in
                 guitar classes. I soon learnt that I wasn't cut out of string
                 instruments, and my hatred for the guitar only intensified. I
