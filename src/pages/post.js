@@ -189,8 +189,8 @@ const Post = ({ post, meta }) => {
               rel="noopener noreferrer"
             >
               petty larceny
-            </a>{" "}
-            .My subect combination includes Mathematics, Computer Science,
+            </a>
+            .{" "}My subect combination includes Mathematics, Computer Science,
             Psychology, English, and Elective English.
           </p>
           <ul>
