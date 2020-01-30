@@ -3,7 +3,6 @@ import styled from "@emotion/styled"
 import colors from "styles/colors"
 import dimensions from "styles/dimensions"
 import Logo from "components/_ui/Logo"
-import TransitionLink from "gatsby-plugin-transition-link";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const HeaderContainer = styled("div")`
@@ -74,17 +73,17 @@ const HeaderLinks = styled("div")`
 const Header = () => (
   <HeaderContainer>
     <HeaderContent>
-      <AniLink swipe to="/">
+      <AniLink fade to="/">
         <Logo />
       </AniLink>
       <HeaderLinks>
-        <AniLink activeClassName="Link--is-active" swipe to="/code">
+        <AniLink activeClassName="Link--is-active" fade to="/code">
           Code
         </AniLink>
-        <AniLink activeClassName="Link--is-active" swipe to="/work">
+        <AniLink activeClassName="Link--is-active" fade to="/work">
           Work
         </AniLink>
-        <AniLink activeClassName="Link--is-active" swipe to="/post">
+        <AniLink activeClassName="Link--is-active" fade to="/about">
           About
         </AniLink>
       </HeaderLinks>

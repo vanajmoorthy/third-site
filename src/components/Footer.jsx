@@ -24,7 +24,7 @@ const iconStyle = {
 const Icons = () => (
   <div style={iconsDisplay}>
     <div style={paddingStyle}>
-      <a style={iconStyle} href="https://gitub.com/vanajmoorthy" target="_blank" rel="noopener noreferrer">
+      <a style={iconStyle} href="https://github.com/vanajmoorthy" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} size="lg" />
       </a>
     </div>
